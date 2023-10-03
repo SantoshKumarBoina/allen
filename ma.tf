@@ -8,7 +8,7 @@ locals {
 }
 
 module "aws_lb" {
-  source                     = "../../modules/e2esa-module-aws-elb"
+  source                     = "modules/e2esa-module-aws-elb"
   source                     = "https://github.com/SantoshKumarBoina/allen/blob/main/modules/e2esa-module-aws-elb/main.tf"
   name                       = var.project
   internal                   = var.lb_internal
