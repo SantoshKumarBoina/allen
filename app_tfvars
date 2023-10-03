@@ -1,11 +1,11 @@
- Common
+# Common
 project = "e2esa"
 
- General 
+# General 
 aws_region = "us-east-1"
 
 
- LB is creating only 1 ENI. it should be number of subnet provided
+# LB is creating only 1 ENI. it should be number of subnet provided
 
  Load Balancer
 lb_name                       = "mylb"
