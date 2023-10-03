@@ -1,4 +1,4 @@
-ariable "aws_region" {
+variable "aws_region" {
   description = "AWS infrastructure region"
   type        = string
   default     = null
